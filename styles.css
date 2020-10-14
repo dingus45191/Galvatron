@@ -1,0 +1,36 @@
+#who{
+	height: 200vh;
+	background: url("galvatron.png") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+	}
+
+#who p{
+	position: relative;
+	top:800px;
+	font-weight: bold;
+	left:60px;
+	font-size: 25px;
+	color: gray
+}
+.topic{
+	text-align: center;
+}
+.image{
+	margin-top: 40px;
+	float: right;
+
+}
+.content{
+	font-weight: 600;
+	color: #746868;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 50px;
+}
+#what{
+	padding: 100px;
+	background-color: #D2D2D3
+}
