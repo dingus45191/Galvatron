@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1364aa32-7ebf-450f-b42e-698d34912a78" name="Default Changelist" comment="comeon" />
+    <list default="true" id="1364aa32-7ebf-450f-b42e-698d34912a78" name="Default Changelist" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +51,7 @@
       <workItem from="1602565515939" duration="99000" />
       <workItem from="1602566030697" duration="224000" />
       <workItem from="1602653430200" duration="100000" />
+      <workItem from="1602741292412" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1602565532800</created>
@@ -80,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602653510729</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done">
+      <created>1602741310621</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602741310621</updated>
+    </task>
+    <task id="LOCAL-00006" summary="done">
+      <created>1602741317681</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602741317681</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,12 +117,13 @@
     <MESSAGE value="init" />
     <MESSAGE value="made two sections" />
     <MESSAGE value="comeon" />
-    <option name="LAST_COMMIT_MESSAGE" value="comeon" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="133" y="8" key="Vcs.Push.Dialog.v2" timestamp="1602653515373">
+    <state x="133" y="8" key="Vcs.Push.Dialog.v2" timestamp="1602741330760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="8" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602653515373" />
+    <state x="133" y="8" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602741330760" />
   </component>
 </project>
