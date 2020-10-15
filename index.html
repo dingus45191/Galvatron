@@ -4,58 +4,110 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  
+
+ <!--    Materialize -->
+   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<!-- Favicon -->
+
+<link rel="icon"  href="https://seeklogo.com/images/T/Transformers_-_Decepticon-logo-076300C54B-seeklogo.com.png">
+
+
+<!-- My Css -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+   
+            
 
     <title>Megatron</title>
   </head>
   <body>
+  	<div id="progressbar"></div>
+  	<div id="scrollPath"></div>
    <section id="nab">
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Megatron</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarText">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-    	<li class="nav-item active">
-        <a class="nav-link" href="#who">Who? <span class="sr-only">(current)</span></a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#who">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item ">
+      <li class="nav-item">
         <a class="nav-link" href="#what">What?</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#more">More</a>
+        <a class="nav-link " href="#more">More</a>
       </li>
     </ul>
-    
   </div>
 </nav>
 </section>
-<section id="who">
-	<p>Decepticons, your true leader <br>and master has returned.</p>
+<section id="who" class="animate__animated animate__rollIn" >
+	<p class="animate__animated animate__bounceInLeft">Decepticons, your true leader <br>and master has returned.</p>
 </section>
 <section id="what">
-	<h1 class="topic">W .. What?</h1>
-	<img  class="image" src="mega.jpg">
-	<p class="content">A champion gladiator, D-16 who named himself after "Megatronus Prime"- one of the orginal 13 primes who betrayed his brothers and became the first decepticon. Megatron vowed to bring down the Caste system and bring equality for the masses. This reveloutionary started  the 'Decipticon Movement' which would end up waging a war which destroyed Cybertron.</p>
+	<h1 class="topic animate__animated animate__wobble">W .. What?</h1>
+	<img src="mega.jpg" class="animate__animated animate__rotateIn">
+	<p class="content animate__animated animate__lightSpeedInLeft">A champion gladiator, D-16 who named himself after "Megatronus Prime"- one of the orginal 13 primes who betrayed his brothers and became the first decepticon. Megatron vowed to bring down the Caste system and bring equality for the masses. This revelutionary started  the 'Decipticon Movement' which would end up waging a war which destroyed Cybertron.</p>
+</section>
+<section id="about">
+	<h2 class="promises animate__animated animate__fadeInDownBig">But couldn't keep up to the<br> promises</h2>
+	<iframe  class="decepticon-megatron"width="560" height="315" src="https://www.youtube-nocookie.com/embed/ikco2TIb_Rk?start=34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<section id="more">
+	<h1 class="topic animate__animated animate__slideInLeft">Before</h1>
+	<img class="friends  animate__animated animate__rollIn" src="orion.jpg">
+	<h1 class="topic animate__animated  animate__slideInRight">After</h1>
+	<img  class="enemies animate__animated animate__rotateInUpLeft" src="optimus-megatron.jpg">
+</section>
+<footer>
+	<p class="copyright">Copyright ©2020 Mohammed Mubashir Hasan</p>
+	<p class="rights">All rights reserved.</p>
+</footer>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-   <!--  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
- -->
-  <!--   Option 2: jQuery, Popper.js, and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-   
+    <!-- Optional JavaScript-->
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+
+   <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+  <script type="text/javascript">
+  	let progress = document.getElementById('progressbar');
+  	let totalHeight= document.body.scrollHeight - window.innerHeight;
+
+  	window.onscroll= function() {
+  		let progressHeight= (window.pageYOffSet / totalHeight) *100;
+  		progress.style.height= progressHeight + "%";
+  	}
+
+  	 $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+  </script>
   </body>
 </html>
