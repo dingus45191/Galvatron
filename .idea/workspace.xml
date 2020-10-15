@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1364aa32-7ebf-450f-b42e-698d34912a78" name="Default Changelist" comment="done" />
+    <list default="true" id="1364aa32-7ebf-450f-b42e-698d34912a78" name="Default Changelist" comment="gave client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +52,7 @@
       <workItem from="1602566030697" duration="224000" />
       <workItem from="1602653430200" duration="100000" />
       <workItem from="1602741292412" duration="83000" />
+      <workItem from="1602741926848" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1602565532800</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602741317681</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gave client">
+      <created>1602741965571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602741965571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,12 +126,13 @@
     <MESSAGE value="made two sections" />
     <MESSAGE value="comeon" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="gave client" />
+    <option name="LAST_COMMIT_MESSAGE" value="gave client" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="133" y="8" key="Vcs.Push.Dialog.v2" timestamp="1602741330760">
+    <state x="133" y="8" key="Vcs.Push.Dialog.v2" timestamp="1602742063216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="8" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602741330760" />
+    <state x="133" y="8" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602742063216" />
   </component>
 </project>
